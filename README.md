@@ -77,11 +77,11 @@ pip install -r requirements.txt
 ## 🍳 Training
 
 ```
-python wdt_train.py
+python code/wdt_train.py
 ```
 
 ## 🚅 Inference
 
 ```
-python wdt_eval.py
+python code/wdt_eval.py
 ```
