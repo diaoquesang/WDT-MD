@@ -38,13 +38,13 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 4. Comprehensive experiments on the IDRiD and e-ophtha MA datasets demonstrate exceptional performance of our WDT-MD, holding significant promise for improving early DR screening.
 
+## 🚀 Pre-Trained Models
+
 <img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
 
 <div align="center">
   Figure 3: The training process of our WDT-MD.
 </div>
-
-## 🚀 Pre-Trained Models
 
 ## 📦 Datasets
 
