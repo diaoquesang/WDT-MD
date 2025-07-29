@@ -56,6 +56,18 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 ## 🌵 Dependencies
 
+```
+pip install -r requirements.txt
+```
+
 ## 🍳 Training
 
+```
+python wdt_train.py
+```
+
 ## 🚅 Inference
+
+```
+python wdt_eval.py
+```
