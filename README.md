@@ -4,6 +4,9 @@ This code is a **pytorch** implementation of our paper "**WDT-MD: Wavelet Diffus
 
 <img width="5912" height="1680" alt="d1" src="https://github.com/user-attachments/assets/f8845132-acbc-456e-bf67-be77ea995208" />
 
+<div align="center">
+  Figure 1: Overview of our proposed WDT-MD method.
+</div>
 
 ## 🧑🏻‍🏫 Background
 
@@ -31,3 +34,6 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 <img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
 
+<div align="center">
+  Figure 2: The training process of our WDT-MD.
+</div>
