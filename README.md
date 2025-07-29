@@ -68,6 +68,25 @@ Two publicly available datasets, namely [IDRiD](https://ieee-dataport.org/openac
 pip install -r requirements.txt
 ```
 
+| Dependencies | Versions |
+|--------------|----------|
+| diffusers    | 0.27.2   |
+| matplotlib   | 3.7.2    |
+| matplotlib-inline | 0.1.6 |
+| numpy        | 1.26.4   |
+| opencv-python | 4.8.1.78 |
+| pandas       | 2.0.3    |
+| pytorch-wavelets | 1.3.0 |
+| PyWavelets   | 1.8.0    |
+| timm         | 1.0.15   |
+| torch        | 2.0.1+cu117 |
+| torch-ema    | 0.3      |
+| torchaudio   | 2.0.2+cu117 |
+| torchprofile | 0.0.4    |
+| torchsummary | 1.5.1    |
+| torchvision  | 0.15.2+cu117 |
+| tqdm         | 4.66.1   |
+
 ## 🍳 Training
 
 ```
