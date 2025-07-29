@@ -48,6 +48,12 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 ## 📦 Datasets
 
+Two publicly available datasets, namely [IDRiD](https://ieee-dataport.org/openaccess/indian-diabetic-retinopathy-image-dataset-idrid) and [e-ophtha MA](https://www.adcis.net/en/third-party/e-ophtha), are adopted for extensive evaluation.
+
+**The IDRiD dataset**, a benchmark resource for diabetic retinopathy analysis, was adapted for our study. For MA detection, we curated a subset of 249 samples, including 199 training cases, 24 validation cases, and 26 test cases. Specifically, the training set contains 134 normal images and 65 abnormal images. Contrast Limited Adaptive Histogram Equalization (CLAHE) was applied with 8 $\times$ 8 tile grids and a 2.0 clip limit to enhance contrast. Considering  the computational overhead, we implemented dimension standardization through bilinear downsampling to 300 $\times$ 200 pixels. 
+
+**The e-ophtha MA dataset** consists of 381 cases divided into 304 training, 38 validation, and 39 test samples. Specifically, the training set contains 188 normal images and 116 abnormal images. The preprocessing pipeline maintained strict consistency with IDRiD: (1) CLAHE (8 $\times$ 8 tile grids, 2.0 clip limit); (2) downsampling to 300 $\times$ 200 pixels.
+
 <img width="1341" height="1371" alt="dataset" src="https://github.com/user-attachments/assets/701ce580-033a-458a-836b-dd525a628473" />
 
 <div align="center">
