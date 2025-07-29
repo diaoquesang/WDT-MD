@@ -4,7 +4,6 @@ This code is a **pytorch** implementation of our paper "**WDT-MD: Wavelet Diffus
 
 <img width="5912" height="1680" alt="d1" src="https://github.com/user-attachments/assets/f8845132-acbc-456e-bf67-be77ea995208" />
 
-<img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
 
 ## 🧑🏻‍🏫 Background
 
@@ -29,4 +28,6 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 3. To improve the reconstruction quality of normal features, we propose a ``wavelet diffusion Transformer`` architecture, which combines the global modelling capability of DiTs with the multi-scale analysis advantage of wavelet decomposition to better understand the overall structure and detailed information of fundus images.
 
 4. Comprehensive experiments on the IDRiD and e-ophtha MA datasets demonstrate exceptional performance of our WDT-MD, holding significant promise for improving early DR screening.
+
+<img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
 
