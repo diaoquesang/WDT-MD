@@ -48,12 +48,6 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 We provide pre-trained models, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive.google.com/file/d/1B62ltKjGCNlsTrOxadPSpq3V2oUmb5GH/view?usp=sharing) and [e-ophtha_MA-2025-07-24-myWDT-12-n10.pth](https://drive.google.com/file/d/1fagxZKXfewrzedrXM8IEEy1XcJ6Rd1v5/view?usp=sharing), trained on IDRiD and e-ophtha MA, respectively.
 
-<img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
-
-<div align="center">
-  Figure 3: The training process of our WDT-MD.
-</div>
-
 ## 📦 Datasets
 
 Two publicly available datasets, namely [IDRiD](https://ieee-dataport.org/openaccess/indian-diabetic-retinopathy-image-dataset-idrid) and [e-ophtha MA](https://www.adcis.net/en/third-party/e-ophtha), are adopted for extensive evaluation.
@@ -65,7 +59,7 @@ Two publicly available datasets, namely [IDRiD](https://ieee-dataport.org/openac
 <img width="1341" height="1371" alt="dataset" src="https://github.com/user-attachments/assets/701ce580-033a-458a-836b-dd525a628473" />
 
 <div align="center">
-  Figure 4: Raw and preprocessed data from the IDRiD and e-ophtha MA datasets (partial).
+  Figure 3: Raw and preprocessed data from the IDRiD and e-ophtha MA datasets (partial).
 </div>
 
 ## 🌵 Dependencies
@@ -80,8 +74,20 @@ pip install -r requirements.txt
 python code/wdt_train.py
 ```
 
+<img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
+
+<div align="center">
+  Figure 4: The training process of our WDT-MD.
+</div>
+
 ## 🚅 Inference
 
 ```
 python code/wdt_eval.py
 ```
+
+<img width="2574" height="1117" alt="sp" src="https://github.com/user-attachments/assets/a6aebd5c-ac69-4670-955b-710a14720ca1" />
+
+<div align="center">
+  Figure 5: Visualization of the sampling process of WDT-MD, where LL, LH, HL, and HH represent the four wavelet sub-bands.
+</div>
