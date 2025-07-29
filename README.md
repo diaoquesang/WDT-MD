@@ -40,6 +40,8 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 ## 🚀 Pre-Trained Models
 
+We provide pre-trained models, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive.google.com/file/d/1B62ltKjGCNlsTrOxadPSpq3V2oUmb5GH/view?usp=sharing) and [e-ophtha_MA-2025-07-24-myWDT-12-n10.pth](https://drive.google.com/file/d/1fagxZKXfewrzedrXM8IEEy1XcJ6Rd1v5/view?usp=sharing), trained on IDRiD and e-ophtha MA, respectively.
+
 <img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
 
 <div align="center">
