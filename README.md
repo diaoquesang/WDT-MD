@@ -38,6 +38,12 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 4. Comprehensive experiments on the IDRiD and e-ophtha MA datasets demonstrate exceptional performance of our WDT-MD, holding significant promise for improving early DR screening.
 
+## ⚙️ Prerequisties
+
+- Linux/Windows
+- Python>=3.7
+- NVIDIA GPU + CUDA cuDNN
+
 ## 🚀 Pre-Trained Models
 
 We provide pre-trained models, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive.google.com/file/d/1B62ltKjGCNlsTrOxadPSpq3V2oUmb5GH/view?usp=sharing) and [e-ophtha_MA-2025-07-24-myWDT-12-n10.pth](https://drive.google.com/file/d/1fagxZKXfewrzedrXM8IEEy1XcJ6Rd1v5/view?usp=sharing), trained on IDRiD and e-ophtha MA, respectively.
