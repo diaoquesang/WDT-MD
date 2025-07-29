@@ -12,6 +12,12 @@ This code is a **pytorch** implementation of our paper "**WDT-MD: Wavelet Diffus
 
 **Diabetic Retinopathy** (**DR**) is a serious complication affecting individuals with diabetes and can result in severe vision loss if not treated promptly. In the initial stages of DR, retinal capillaries are damaged due to hyperglycemia, which weakens the capillary walls and leads to **Microaneurysms** (**MAs**). MAs are small outpouchings in the lumen of the retinal vessels, typically measuring 15-60 $\mu m$ in diameter. Identification of MAs allows for timely recognition of DR, thus providing an opportunity for early intervention in patients. To analyze them, fundus images are widely used where small red dots are an indication of MAs. Nevertheless, MAs are tiny and inconspicuous with variations in brightness, contrast, and shape, making it difficult for physicians to detect them. Therefore, automated MA detection methods with high accuracy in fundus images are of great significance.
 
+<img width="2011" height="941" alt="data" src="https://github.com/user-attachments/assets/9b521b12-31c6-43e5-8537-0991e921f889" />
+
+<div align="center">
+  Figure 2: An illustration of MAs in fundus images.
+</div>
+
 ## 😖 Current Challenges
 
 1. The inherent risk of learning "``identity mapping``" still persists in existing frameworks based on diffusion models. "Identity mapping" refers to the behavior of directly copying the input as output, whether normal or abnormal. This contradicts the foundational assumption that anomalies induce significant reconstruction deviations, ultimately causing false negatives.
@@ -35,5 +41,5 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 <img width="4181" height="1888" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
 
 <div align="center">
-  Figure 2: The training process of our WDT-MD.
+  Figure 3: The training process of our WDT-MD.
 </div>
