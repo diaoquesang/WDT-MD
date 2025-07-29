@@ -48,6 +48,12 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 ## 📦 Datasets
 
+<img width="1341" height="1371" alt="dataset" src="https://github.com/user-attachments/assets/701ce580-033a-458a-836b-dd525a628473" />
+
+<div align="center">
+  Figure 4: Raw and preprocessed data from the IDRiD and e-ophtha MA datasets (partial).
+</div>
+
 ## 🌵 Dependencies
 
 ## 🍳 Training
