@@ -52,6 +52,8 @@ We provide pre-trained models, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive
 
 ## 📦 Datasets
 
+### Downloading
+
 Two publicly available datasets, namely [IDRiD](https://ieee-dataport.org/openaccess/indian-diabetic-retinopathy-image-dataset-idrid) and [e-ophtha MA](https://www.adcis.net/en/third-party/e-ophtha), are adopted for extensive evaluation.
 
 **The IDRiD dataset**, a benchmark resource for diabetic retinopathy analysis, was adapted for our study. For MA detection, we curated a subset of 249 samples, including 199 training cases, 24 validation cases, and 26 test cases. Specifically, the training set contains 134 normal images and 65 abnormal images. Contrast Limited Adaptive Histogram Equalization (CLAHE) was applied with 8 $\times$ 8 tile grids and a 2.0 clip limit to enhance contrast. Considering  the computational overhead, we implemented dimension standardization through bilinear downsampling to 300 $\times$ 200 pixels. 
@@ -64,6 +66,18 @@ Two publicly available datasets, namely [IDRiD](https://ieee-dataport.org/openac
 
   Figure 3: Raw and preprocessed data from the IDRiD and e-ophtha MA datasets (partial).
 </div>
+
+### Pre-processing
+
+```
+python code/pre-processing.py
+```
+
+### Split
+
+```
+python code/split.py
+```
 
 ## 🌵 Dependencies
 
