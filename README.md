@@ -52,7 +52,7 @@ All experiments were performed using PyTorch 2.5.1 on a single NVIDIA V100 32 GB
 
 ## 🚀 Pre-Trained Models
 
-We provide pre-trained models, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive.google.com/file/d/1B62ltKjGCNlsTrOxadPSpq3V2oUmb5GH/view?usp=sharing) and [e-ophtha_MA-2025-07-24-myWDT-12-n10.pth](https://drive.google.com/file/d/1fagxZKXfewrzedrXM8IEEy1XcJ6Rd1v5/view?usp=sharing), trained on IDRiD and e-ophtha MA, respectively.
+We provide pre-trained models for restored image generation, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive.google.com/file/d/1B62ltKjGCNlsTrOxadPSpq3V2oUmb5GH/view?usp=sharing) and [e-ophtha_MA-2025-07-24-myWDT-12-n10.pth](https://drive.google.com/file/d/1fagxZKXfewrzedrXM8IEEy1XcJ6Rd1v5/view?usp=sharing), trained on IDRiD and e-ophtha MA, respectively.
 
 ## 📦 Datasets
 
