@@ -1,6 +1,6 @@
 ![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:D22229,100:2B4FA3&text=WDT-MD:%20Wavelet%20Diffusion%20Transformers%20for-nl-Microaneurysm%20Detection%20in%20Fundus%20Images&reversal=false&fontSize=25&fontAlignY=30&desc=Yifei%20Sun,%20Yuzhi%20He,%20Junhao%20Jia,%20Jinhong%20Wang,%20Ruiquan%20Ge,%20Changmiao%20Wang,%20Hongxia%20Xu&descSize=12&descAlignY=55&fontColor=FFFFFF)
 
-This code is a **pytorch** implementation of our paper "**WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images**".
+This code is a **pytorch** implementation of our paper "**WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images**" accepted by [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/). [[🌐 Project Page]](https://diaoquesang.github.io/WDT-MD-Project-Page/)
 
 <div align="center">
 
