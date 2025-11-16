@@ -50,10 +50,6 @@ To address these challenges, we propose a **W**avelet **D**iffusion **T**ransfor
 
 All experiments were performed using PyTorch 2.5.1 on a single NVIDIA V100 32 GB GPU within Ubuntu 22.04. WDT-MD was trained from scratch over 600 epochs with a batch size of 4 utilizing the AdamW optimizer, complemented by a dynamic learning rate schedule initialized at $10^{-4}$. The noise scheduling parameter $\beta_t$ followed a scaled linear trajectory ranging from 0.00085 to 0.012 across $T=1000$ diffusion timesteps. The sampling steps $T_s$ was set to 50 using the LCM sampler. In pseudo-normal pattern synthesis, the inpainting radius $r$ is set to 3 pixels. For wavelet decomposition, the Daubechies 6 basis was selected to balance computational efficiency and time-frequency localization.
 
-## 🚀 Pre-Trained Models
-
-We provide pre-trained models for restored image generation, [IDRiD-2025-07-05-myWDT-12-n10.pth](https://drive.google.com/file/d/1B62ltKjGCNlsTrOxadPSpq3V2oUmb5GH/view?usp=sharing) and [e-ophtha_MA-2025-07-24-myWDT-12-n10.pth](https://drive.google.com/file/d/1fagxZKXfewrzedrXM8IEEy1XcJ6Rd1v5/view?usp=sharing), trained on IDRiD and e-ophtha MA, respectively.
-
 ## 📦 Datasets
 
 ### Downloading
