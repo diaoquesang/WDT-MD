@@ -112,7 +112,7 @@ python code/wdt_train.py
 
 <div align="center">
 
-<img width="80%" alt="d2" src="https://github.com/user-attachments/assets/98e4bad8-7ccc-4165-a673-5708d59b65c2" />
+<img width="80%" alt="d2" src="https://github.com/user-attachments/assets/4c0001bb-a22d-4b01-bf1c-27e1fe0f4e20" />
 
   Figure 4: The training process of our WDT-MD.
 </div>
