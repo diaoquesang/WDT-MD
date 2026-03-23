@@ -119,8 +119,6 @@ python code/wdt_train.py
 python code/wdt_eval.py
 ```
 
-<div align="center">
-
 ## 📢 Citation
 ```
 @inproceedings{sun2026wdt,
