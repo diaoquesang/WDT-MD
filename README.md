@@ -121,6 +121,20 @@ python code/wdt_eval.py
 
 <div align="center">
 
+## 📢 Citation
+```
+@inproceedings{sun2026wdt,
+  title={WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images},
+  author={Sun, Yifei and He, Yuzhi and Jia, Junhao and Wang, Jinhong and Ge, Ruiquan and Wang, Changmiao and Xu, Hongxia},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={11},
+  pages={9242--9250},
+  year={2026}
+}
+```
+
+
 <img width="80%" alt="sp" src="https://github.com/user-attachments/assets/a6aebd5c-ac69-4670-955b-710a14720ca1" />
 
   Figure 5: Visualization of the sampling process of WDT-MD, where LL, LH, HL, and HH represent the four wavelet sub-bands.
