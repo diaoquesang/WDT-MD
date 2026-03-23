@@ -119,7 +119,15 @@ python code/wdt_train.py
 python code/wdt_eval.py
 ```
 
+<div align="center">
+
+<img width="80%" alt="sp" src="https://github.com/user-attachments/assets/a6aebd5c-ac69-4670-955b-710a14720ca1" />
+
+  Figure 5: Visualization of the sampling process of WDT-MD, where LL, LH, HL, and HH represent the four wavelet sub-bands.
+</div>
+
 ## 📢 Citation
+
 ```
 @inproceedings{sun2026wdt,
   title={WDT-MD: Wavelet Diffusion Transformers for Microaneurysm Detection in Fundus Images},
@@ -132,8 +140,3 @@ python code/wdt_eval.py
 }
 ```
 
-
-<img width="80%" alt="sp" src="https://github.com/user-attachments/assets/a6aebd5c-ac69-4670-955b-710a14720ca1" />
-
-  Figure 5: Visualization of the sampling process of WDT-MD, where LL, LH, HL, and HH represent the four wavelet sub-bands.
-</div>
