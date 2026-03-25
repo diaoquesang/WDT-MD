@@ -447,6 +447,3 @@ mySiTModel = SiT(depth=config.num_DiT_blocks, hidden_size=384, patch_size=2, num
 
 if __name__ == "__main__":
     print("Number of model parameters:", sum([p.numel() for p in mySiTModel.parameters()]))
-    input_tensor = torch.randn([1, 8, 150, 150])
-    macs = profile_macs(mySiTModel, (input_tensor, torch.randint(0, 1000, (1,))))
-    print(f"FLOPs: {macs}")
